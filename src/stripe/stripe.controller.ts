@@ -40,8 +40,8 @@ export class StripeController {
           },
         ],
         mode: 'payment',
-        success_url: 'http://localhost:3000/success',
-        cancel_url: 'http://localhost:3000/cancel',
+        success_url: 'https://kitt-search.onrender.com/success',
+        cancel_url: 'https://kitt-search.onrender.com/cancel',
       });
 
       return { id: session.id };
